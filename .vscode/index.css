@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #f1f9ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+  margin: 20rem;
+}
+.logo {
+  height: 5.2rem;
+  margin-left: 30rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #2699fb;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.section-hero {
+  /* top: 10.8rem;
+  left: 2rem;
+  width: 188rem;
+  height: 77.2rem; */
+  /* UI Properties */
+
+  top: 10.8rem;
+  left: 3rem;
+  width: 170rem;
+  height: 90rem;
+  background: transparent linear-gradient(113deg, #523b5d 0%, #f4008e 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 3rem;
+  opacity: 1;
+}
+
+.heading-primary {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 10;
+  margin-bottom: -10rem;
+  margin-left: 18rem;
+}
+.heading-primary-2 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+  margin-left: 18rem;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 4rem;
+  font-weight: 300;
+  margin-left: 18rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+  padding: 0 3.2rem;
+}
+.btn-keşfet {
+  font-size: 2rem;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.2rem solid;
+  border-radius: 3rem;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  margin-left: 18rem;
+}
+
+.img-box {
+  display: flex;
+  position: relative;
+}
+
+.success {
+  width: 30rem;
+  height: 30rem;
+  position: absolute;
+  top: 10rem;
+  bottom: 1rem;
+}
